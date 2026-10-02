@@ -1,0 +1,29 @@
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.AssemblyInfoInputs.cache
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.AssemblyInfo.cs
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.csproj.CoreCompileInputs.cache
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.sourcelink.json
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/bin/Debug/net10.0/Dictionaries
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/bin/Debug/net10.0/Dictionaries.deps.json
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/bin/Debug/net10.0/Dictionaries.runtimeconfig.json
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/bin/Debug/net10.0/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/bin/Debug/net10.0/Dictionaries.pdb
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/refint/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.pdb
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/Dictionaries.genruntimeconfig.cache
+/Users/ibuzor/Desktop/IBUZOR/MIA26 /C# programmering/Dictionaries/obj/Debug/net10.0/ref/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.AssemblyInfoInputs.cache
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.AssemblyInfo.cs
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.csproj.CoreCompileInputs.cache
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/refint/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.pdb
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/bin/Debug/net10.0/Dictionaries
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/bin/Debug/net10.0/Dictionaries.deps.json
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/bin/Debug/net10.0/Dictionaries.runtimeconfig.json
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/bin/Debug/net10.0/Dictionaries.dll
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/bin/Debug/net10.0/Dictionaries.pdb
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/Dictionaries.genruntimeconfig.cache
+/Users/ibuzor/Desktop/IBUZOR/MIA-26 /Dictionaries/obj/Debug/net10.0/ref/Dictionaries.dll

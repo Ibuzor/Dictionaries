@@ -1,0 +1,19 @@
+var dict = {}; // {key => value}
+
+foreach (var word in words)
+{
+    // 1. en dictionary
+    dict[word.FromWord] = word; //word.ToWord;
+ 
+    // 2. dictionary med flesta entries
+    if (!dict[word.FromWord]){
+        //ny key => ny array med vårt egen entries
+        if (!dict[word.FromWord]) {
+            dict[word.FromWord] = [];
+        }
+        
+    }   dict[word.FromWord] = word.ToWord;
+    // dict[snabb]: {FromLanguage: "swedish", ToLanguage: "english", FromWord: "snabb", ToWord: "fast"}
+} 
+
+// Console.WriteLine(dict['snabb'].ToWord); jfr: Console.Write(dict[0]);

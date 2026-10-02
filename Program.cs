@@ -26,29 +26,45 @@ while (true)
     Console.WriteLine("Välj vilket språk du vill översätta till");
     string? toLanguage = Console.ReadLine();
 
+    if (string.IsNullOrWhiteSpace(fromLanguage) || string.IsNullOrWhiteSpace(toLanguage))
+    {
+        Console.WriteLine("Du måste ange båda språken.");
+        continue;
+    }
 
-    
-}
+    Dictionary<string, List<Word>> swedishToEnglish = words
+        .Where(word => word.FromLanguage == fromLanguage)
+        .Where(word => word.ToLanguage == toLanguage)
+        .GroupBy(word => word.FromWord)
+        .ToDictionary(
+            group => group.Key,
+            group => group.ToList()
+        );
 
-//felhantera genom att kolla om språk finns i listan med språk som finns i words]
+    Console.WriteLine("Skriv in ett ord att översätta:");
+    string? wordToTranslate = Console.ReadLine();
 
-//foreach (var word in words)
-//{
-//    Console.WriteLine($"{word.FromLanguage}: {word.FromWord} => {word.ToLanguage}: {word.ToWord} ");
+    if (string.IsNullOrWhiteSpace(wordToTranslate))
+    {
+        Console.WriteLine("Du måste ange ett ord.");
+        continue;
+    }
 
-//}
+    if (swedishToEnglish.TryGetValue(wordToTranslate, out List<Word>? translatedWords))
+    {
+        foreach (var word in translatedWords)
+        {
+            Console.WriteLine($"Översättning: {word.ToWord}");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Det finns ingen översättning för det ordet i det valda språket.");
+    }
 
-            //key  //value
-Dictionary<string, List<Word>> swedishToEnglish = words //.GroupBy(word => word.FromWord)
-.Where(word => word.FromLanguage == fromLanguage)
-.Where(word => word.ToLanguage == toLanguage)
-.GroupBy(word => word.FromWord)
-.ToDictionary(
-    group => group.Key, // ordet jag vill översätta från
-    group => group.ToList() // lista med våra word objekt som matchar nycklen
-);
-
-foreach (var word in swedishToEnglish["stark"])
-{
-    Console.WriteLine($"Översättning: {word.ToWord}");
+    Console.WriteLine("Vill du översätta igen? (j/n)");
+    if (Console.ReadLine()?.Trim().ToLower() != "j")
+    {
+        break;
+    }
 }
